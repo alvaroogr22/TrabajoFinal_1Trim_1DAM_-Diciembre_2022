@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.2s;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  background-color: rgb(30, 30, 30);
+  font-size: 2.3vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+nav {
+  width: 100%;
+  padding: 2vh;
+  display: block;
+}
+img#logo {
+  width: 40%;
+  border-right: 1px solid whitesmoke;
+  padding-right: 1vh;
+}
+
+a#barraNav2 {
+  float: right;
+  color: rgb(255, 255, 255);
+}
+
+.boton {
+  color: rgb(0, 0, 0);
+  padding: 1vh;
+  text-decoration-line: none;
+  font-size: 2vh;
+  cursor: pointer;
+  border-right: 1px solid whitesmoke;
+}
+.boton:hover {
+  font-size: 1em;
+  font-weight: 300;
+}
+.aintro {
+  padding: 1vh 10vh 1vh 10vh;
+}
+.intro {
+  border-radius: 0.1em;
+  border-style: solid;
+  border-color: whitesmoke;
+  padding: 4vh;
+  background-color: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 70);
+}
+span {
+  color: rgba(245, 245, 245, 0.603);
+}
+a#mencionFromSoftware {
+  font-size: 3vh;
+}
+.imgMain {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.ImgMainImg {
+  width: 100%;
+  height: 100%;
+  background-color: lightpink;
+  display: block;
+  object-fit: contain;
+}
+
+div.col {
+  margin: 4vh;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+img.juegos {
+  width: 30vh;
+  border-radius: 0.1em;
+  border-style: solid;
+
+  border-color: rgb(88, 88, 88);
+}
+img:hover {
+  border-color: whitesmoke;
+}
+
+@media screen and (orientation: landscape) {
+  .portaFoto {
+    max-width: 1920px;
+    max-height: 1280px;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .portaFoto {
+    max-width: 800px;
+    max-height: 1200px;
+  }
+}
+
+img.juegosec {
+  width: 100vh;
+  border-radius: 0.1em;
+  border-style: solid;
+  border-color: whitesmoke;
+  display: block;
+  margin: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
