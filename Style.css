@@ -24,8 +24,10 @@ img#logo {
 }
 
 a#barraNav2 {
-  float: right;
+  text-align: right;
   color: rgb(255, 255, 255);
+  float: right;
+  
 }
 
 .boton {
