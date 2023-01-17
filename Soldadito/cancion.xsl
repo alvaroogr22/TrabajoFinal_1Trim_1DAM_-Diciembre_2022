@@ -10,19 +10,18 @@
 				<h2>Canción:</h2>
 				<h1>Título - <xsl:value-of select="titulo"/>
 				</h1>
-				<p>(Autor: < select="cancion/autor"/>)</p>
 				<br/>
 
 				<xsl:for-each select="cancion/letra/estrofa">
 
 					<xsl:sort select="orden"/>
 					<xsl:for-each select="verso">
-						<p>
-							< select="."/>
-						</p>
+						<p><xsl:value-of select="."/></p>
 					</xsl:for-each>
 					<br/>
 				</xsl:for-each>
+
+				<p>(Autor: <xsl:value-of select="cancion/autor"/>)</p>
 
 			</body>
 		</html>
