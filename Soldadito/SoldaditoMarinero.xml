@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-  xsi:noNamespaceSchemaLocation="file:///C:/Users/%C3%81lvaro/Documents/AlvaroGomez/Privado/1%C2%BADAM/Lenguaje%20de%20marcas/Tema%203/SoldaditoMarinero.xsd">
+<cancion  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation="file:///C:/Users/%C3%81lvaro/Documents/AlvaroGomez/REP%20p%C3%BAblicos/TrabajoFinal_1Trim_1DAM/Soldadito/SoldaditoMarinero.xsd">
 	<titulo>Soldadito Marinero</titulo>
 	<autor>Fito y los Fipaldis</autor>
 	<letra>
